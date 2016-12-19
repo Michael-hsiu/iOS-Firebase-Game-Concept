@@ -7,21 +7,115 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370694A01DFBFA8500BA4837 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 370694971DFBFA8500BA4837 /* GeoFire.m */; };
+		370694A11DFBFA8500BA4837 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 370694991DFBFA8500BA4837 /* GFBase32Utils.m */; };
+		370694A21DFBFA8500BA4837 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706949B1DFBFA8500BA4837 /* GFGeoHash.m */; };
+		370694A31DFBFA8500BA4837 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706949D1DFBFA8500BA4837 /* GFGeoHashQuery.m */; };
+		370694A41DFBFA8500BA4837 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706949F1DFBFA8500BA4837 /* GFQuery.m */; };
+		370694AC1DFBFB4B00BA4837 /* DungeonEntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370694A81DFBFB4B00BA4837 /* DungeonEntranceViewController.swift */; };
+		370694AD1DFBFB4B00BA4837 /* DungeonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370694A91DFBFB4B00BA4837 /* DungeonViewController.swift */; };
+		370694AE1DFBFB4B00BA4837 /* DefeatDungeonExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370694AA1DFBFB4B00BA4837 /* DefeatDungeonExitViewController.swift */; };
+		370694AF1DFBFB4B00BA4837 /* VictoryDungeonExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370694AB1DFBFB4B00BA4837 /* VictoryDungeonExitViewController.swift */; };
+		370694B21DFBFC5700BA4837 /* Dungeons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370694B11DFBFC5700BA4837 /* Dungeons.storyboard */; };
+		370694B41DFBFD3F00BA4837 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370694B31DFBFD3F00BA4837 /* MapViewController.swift */; };
 		370B462E1DF0C28000F5C984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B462D1DF0C28000F5C984 /* AppDelegate.swift */; };
-		370B46301DF0C28000F5C984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B462F1DF0C28000F5C984 /* ViewController.swift */; };
-		370B46331DF0C28000F5C984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370B46311DF0C28000F5C984 /* Main.storyboard */; };
 		370B46351DF0C28000F5C984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370B46341DF0C28000F5C984 /* Assets.xcassets */; };
-		370B46381DF0C28000F5C984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370B46361DF0C28000F5C984 /* LaunchScreen.storyboard */; };
+		372A1FE61DF0C42E0018D3AE /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372A1FE41DF0C42E0018D3AE /* LogInViewController.swift */; };
+		372A1FE71DF0C42E0018D3AE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372A1FE51DF0C42E0018D3AE /* ProfileViewController.swift */; };
+		372A1FEB1DF0C4810018D3AE /* Asset 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 372A1FEA1DF0C4810018D3AE /* Asset 1.png */; };
+		372A1FF01DF0C62E0018D3AE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372A1FEF1DF0C62E0018D3AE /* AuthService.swift */; };
+		372A1FF41DF0CDA80018D3AE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372A1FF31DF0CDA80018D3AE /* MenuViewController.swift */; };
+		372A1FF61DF0D19A0018D3AE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372A1FF51DF0D19A0018D3AE /* SignUpViewController.swift */; };
+		372A1FF81DF12C700018D3AE /* user-placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 372A1FF71DF12C700018D3AE /* user-placeholder.jpg */; };
+		372A1FFA1DF1304A0018D3AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 372A1FF91DF1304A0018D3AE /* GoogleService-Info.plist */; };
+		372A20011DF141510018D3AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372A20001DF141510018D3AE /* Main.storyboard */; };
+		372A20031DF142E40018D3AE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372A20021DF142E40018D3AE /* User.swift */; };
+		372A20051DF144490018D3AE /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372A20041DF144490018D3AE /* UserProfileViewController.swift */; };
+		377DFA8B1DFBF7BF008AB931 /* victory_lol.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA7D1DFBF7BF008AB931 /* victory_lol.png */; };
+		377DFA8C1DFBF7BF008AB931 /* defeat_lol.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA7E1DFBF7BF008AB931 /* defeat_lol.png */; };
+		377DFA8D1DFBF7BF008AB931 /* Small.gif in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA7F1DFBF7BF008AB931 /* Small.gif */; };
+		377DFA8E1DFBF7BF008AB931 /* PolyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA801DFBF7BF008AB931 /* PolyLogo.png */; };
+		377DFA8F1DFBF7BF008AB931 /* Haha Emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA811DFBF7BF008AB931 /* Haha Emoji.png */; };
+		377DFA901DFBF7BF008AB931 /* Pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA821DFBF7BF008AB931 /* Pencil.png */; };
+		377DFA911DFBF7BF008AB931 /* MapPointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA831DFBF7BF008AB931 /* MapPointer.png */; };
+		377DFA921DFBF7BF008AB931 /* MapIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA841DFBF7BF008AB931 /* MapIcon.png */; };
+		377DFA931DFBF7BF008AB931 /* Caution Sign.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA851DFBF7BF008AB931 /* Caution Sign.png */; };
+		377DFA941DFBF7BF008AB931 /* Caution Sign@0.5x.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA861DFBF7BF008AB931 /* Caution Sign@0.5x.png */; };
+		377DFA951DFBF7BF008AB931 /* skull-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA871DFBF7BF008AB931 /* skull-icon.png */; };
+		377DFA961DFBF7BF008AB931 /* Enter Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA881DFBF7BF008AB931 /* Enter Button.png */; };
+		377DFA971DFBF7BF008AB931 /* Leave Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA891DFBF7BF008AB931 /* Leave Button.png */; };
+		377DFA981DFBF7BF008AB931 /* Building1.png in Resources */ = {isa = PBXBuildFile; fileRef = 377DFA8A1DFBF7BF008AB931 /* Building1.png */; };
+		377DFA9B1DFBF7FE008AB931 /* PokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377DFA9A1DFBF7FE008AB931 /* PokeAnnotation.swift */; };
+		37D5E4011DFD48E0006084A7 /* MapTabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D5E4001DFD48E0006084A7 /* MapTabBar.png */; };
+		37D5E4031DFD493B006084A7 /* MapTabBar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D5E4021DFD493B006084A7 /* MapTabBar2.png */; };
+		37D5E4051DFD49FA006084A7 /* pokettomonsta-ghastly-practise.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D5E4041DFD49FA006084A7 /* pokettomonsta-ghastly-practise.png */; };
+		37D5E4091DFD4B2D006084A7 /* MonstersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D5E4081DFD4B2D006084A7 /* MonstersViewController.swift */; };
+		37D5E40B1DFD4D2C006084A7 /* MonsterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D5E40A1DFD4D2C006084A7 /* MonsterCell.swift */; };
+		99FD71BB29B299970577B8B6 /* Pods_TeamsGamePrototype2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F71DA35018E62B59DED4EAB /* Pods_TeamsGamePrototype2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F71DA35018E62B59DED4EAB /* Pods_TeamsGamePrototype2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamsGamePrototype2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		370694901DFBFA8500BA4837 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		370694911DFBFA8500BA4837 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		370694921DFBFA8500BA4837 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		370694931DFBFA8500BA4837 /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		370694941DFBFA8500BA4837 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		370694961DFBFA8500BA4837 /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		370694971DFBFA8500BA4837 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		370694981DFBFA8500BA4837 /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		370694991DFBFA8500BA4837 /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		3706949A1DFBFA8500BA4837 /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		3706949B1DFBFA8500BA4837 /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		3706949C1DFBFA8500BA4837 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		3706949D1DFBFA8500BA4837 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		3706949E1DFBFA8500BA4837 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		3706949F1DFBFA8500BA4837 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		370694A81DFBFB4B00BA4837 /* DungeonEntranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonEntranceViewController.swift; sourceTree = "<group>"; };
+		370694A91DFBFB4B00BA4837 /* DungeonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonViewController.swift; sourceTree = "<group>"; };
+		370694AA1DFBFB4B00BA4837 /* DefeatDungeonExitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefeatDungeonExitViewController.swift; sourceTree = "<group>"; };
+		370694AB1DFBFB4B00BA4837 /* VictoryDungeonExitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VictoryDungeonExitViewController.swift; sourceTree = "<group>"; };
+		370694B11DFBFC5700BA4837 /* Dungeons.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dungeons.storyboard; sourceTree = "<group>"; };
+		370694B31DFBFD3F00BA4837 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		370B462A1DF0C28000F5C984 /* TeamsGamePrototype2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamsGamePrototype2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		370B462D1DF0C28000F5C984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		370B462F1DF0C28000F5C984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		370B46321DF0C28000F5C984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		370B46341DF0C28000F5C984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		370B46371DF0C28000F5C984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		370B46391DF0C28000F5C984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370FE8911DFA4FA700399CDE /* TeamsGamePrototype2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TeamsGamePrototype2.entitlements; sourceTree = "<group>"; };
+		372A1FE41DF0C42E0018D3AE /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		372A1FE51DF0C42E0018D3AE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		372A1FEA1DF0C4810018D3AE /* Asset 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 1.png"; sourceTree = "<group>"; };
+		372A1FEF1DF0C62E0018D3AE /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		372A1FF31DF0CDA80018D3AE /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		372A1FF51DF0D19A0018D3AE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		372A1FF71DF12C700018D3AE /* user-placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "user-placeholder.jpg"; sourceTree = "<group>"; };
+		372A1FF91DF1304A0018D3AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		372A20001DF141510018D3AE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		372A20021DF142E40018D3AE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		372A20041DF144490018D3AE /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		377DFA7D1DFBF7BF008AB931 /* victory_lol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = victory_lol.png; sourceTree = "<group>"; };
+		377DFA7E1DFBF7BF008AB931 /* defeat_lol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defeat_lol.png; sourceTree = "<group>"; };
+		377DFA7F1DFBF7BF008AB931 /* Small.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Small.gif; sourceTree = "<group>"; };
+		377DFA801DFBF7BF008AB931 /* PolyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PolyLogo.png; sourceTree = "<group>"; };
+		377DFA811DFBF7BF008AB931 /* Haha Emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Haha Emoji.png"; sourceTree = "<group>"; };
+		377DFA821DFBF7BF008AB931 /* Pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pencil.png; sourceTree = "<group>"; };
+		377DFA831DFBF7BF008AB931 /* MapPointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapPointer.png; sourceTree = "<group>"; };
+		377DFA841DFBF7BF008AB931 /* MapIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapIcon.png; sourceTree = "<group>"; };
+		377DFA851DFBF7BF008AB931 /* Caution Sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Caution Sign.png"; sourceTree = "<group>"; };
+		377DFA861DFBF7BF008AB931 /* Caution Sign@0.5x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Caution Sign@0.5x.png"; sourceTree = "<group>"; };
+		377DFA871DFBF7BF008AB931 /* skull-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skull-icon.png"; sourceTree = "<group>"; };
+		377DFA881DFBF7BF008AB931 /* Enter Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Enter Button.png"; sourceTree = "<group>"; };
+		377DFA891DFBF7BF008AB931 /* Leave Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leave Button.png"; sourceTree = "<group>"; };
+		377DFA8A1DFBF7BF008AB931 /* Building1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Building1.png; sourceTree = "<group>"; };
+		377DFA9A1DFBF7FE008AB931 /* PokeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeAnnotation.swift; sourceTree = "<group>"; };
+		377DFA9C1DFBF801008AB931 /* TeamsGamePrototype2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeamsGamePrototype2-Bridging-Header.h"; sourceTree = "<group>"; };
+		37D5E4001DFD48E0006084A7 /* MapTabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapTabBar.png; sourceTree = "<group>"; };
+		37D5E4021DFD493B006084A7 /* MapTabBar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapTabBar2.png; sourceTree = "<group>"; };
+		37D5E4041DFD49FA006084A7 /* pokettomonsta-ghastly-practise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pokettomonsta-ghastly-practise.png"; sourceTree = "<group>"; };
+		37D5E4081DFD4B2D006084A7 /* MonstersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonstersViewController.swift; sourceTree = "<group>"; };
+		37D5E40A1DFD4D2C006084A7 /* MonsterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterCell.swift; sourceTree = "<group>"; };
+		CE9E6C400BF280AA11AE111B /* Pods-TeamsGamePrototype2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamsGamePrototype2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamsGamePrototype2/Pods-TeamsGamePrototype2.debug.xcconfig"; sourceTree = "<group>"; };
+		EA045BE8E6A0EC35185487E8 /* Pods-TeamsGamePrototype2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamsGamePrototype2.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamsGamePrototype2/Pods-TeamsGamePrototype2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +123,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99FD71BB29B299970577B8B6 /* Pods_TeamsGamePrototype2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3706948E1DFBFA8500BA4837 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				3706948F1DFBFA8500BA4837 /* API */,
+				370694941DFBFA8500BA4837 /* GeoFire-Prefix.pch */,
+				370694951DFBFA8500BA4837 /* Implementation */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+		3706948F1DFBFA8500BA4837 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				370694901DFBFA8500BA4837 /* GeoFire.h */,
+				370694911DFBFA8500BA4837 /* GFCircleQuery.h */,
+				370694921DFBFA8500BA4837 /* GFQuery.h */,
+				370694931DFBFA8500BA4837 /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		370694951DFBFA8500BA4837 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				370694961DFBFA8500BA4837 /* GeoFire+Private.h */,
+				370694971DFBFA8500BA4837 /* GeoFire.m */,
+				370694981DFBFA8500BA4837 /* GFBase32Utils.h */,
+				370694991DFBFA8500BA4837 /* GFBase32Utils.m */,
+				3706949A1DFBFA8500BA4837 /* GFGeoHash.h */,
+				3706949B1DFBFA8500BA4837 /* GFGeoHash.m */,
+				3706949C1DFBFA8500BA4837 /* GFGeoHashQuery.h */,
+				3706949D1DFBFA8500BA4837 /* GFGeoHashQuery.m */,
+				3706949E1DFBFA8500BA4837 /* GFQuery+Private.h */,
+				3706949F1DFBFA8500BA4837 /* GFQuery.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
 		370B46211DF0C28000F5C984 = {
 			isa = PBXGroup;
 			children = (
 				370B462C1DF0C28000F5C984 /* TeamsGamePrototype2 */,
 				370B462B1DF0C28000F5C984 /* Products */,
+				3D35A73FAF7A50ABA67FDDBE /* Pods */,
+				5EE8BF6003789F4C252E2D98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +190,115 @@
 			isa = PBXGroup;
 			children = (
 				370B462D1DF0C28000F5C984 /* AppDelegate.swift */,
-				370B462F1DF0C28000F5C984 /* ViewController.swift */,
-				370B46311DF0C28000F5C984 /* Main.storyboard */,
-				370B46341DF0C28000F5C984 /* Assets.xcassets */,
-				370B46361DF0C28000F5C984 /* LaunchScreen.storyboard */,
-				370B46391DF0C28000F5C984 /* Info.plist */,
+				372A20001DF141510018D3AE /* Main.storyboard */,
+				370694B11DFBFC5700BA4837 /* Dungeons.storyboard */,
+				3706948E1DFBFA8500BA4837 /* GeoFire */,
+				377DFA9C1DFBF801008AB931 /* TeamsGamePrototype2-Bridging-Header.h */,
+				370FE8911DFA4FA700399CDE /* TeamsGamePrototype2.entitlements */,
+				372A1FEE1DF0C6010018D3AE /* Model */,
+				372A1FEC1DF0C5D20018D3AE /* View Controllers */,
+				377DFA991DFBF7C7008AB931 /* Images */,
+				372A1FED1DF0C5F20018D3AE /* Supporting Files */,
 			);
 			path = TeamsGamePrototype2;
+			sourceTree = "<group>";
+		};
+		372A1FEC1DF0C5D20018D3AE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37D5E4071DFD4A61006084A7 /* User VC */,
+				37D5E4061DFD4A58006084A7 /* Dungeon VC */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		372A1FED1DF0C5F20018D3AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				370B46341DF0C28000F5C984 /* Assets.xcassets */,
+				370B46391DF0C28000F5C984 /* Info.plist */,
+				372A1FF91DF1304A0018D3AE /* GoogleService-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		372A1FEE1DF0C6010018D3AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37D5E40A1DFD4D2C006084A7 /* MonsterCell.swift */,
+				372A1FEF1DF0C62E0018D3AE /* AuthService.swift */,
+				372A20021DF142E40018D3AE /* User.swift */,
+				377DFA9A1DFBF7FE008AB931 /* PokeAnnotation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		377DFA991DFBF7C7008AB931 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				37D5E4041DFD49FA006084A7 /* pokettomonsta-ghastly-practise.png */,
+				37D5E4021DFD493B006084A7 /* MapTabBar2.png */,
+				37D5E4001DFD48E0006084A7 /* MapTabBar.png */,
+				372A1FEA1DF0C4810018D3AE /* Asset 1.png */,
+				372A1FF71DF12C700018D3AE /* user-placeholder.jpg */,
+				377DFA7D1DFBF7BF008AB931 /* victory_lol.png */,
+				377DFA7E1DFBF7BF008AB931 /* defeat_lol.png */,
+				377DFA7F1DFBF7BF008AB931 /* Small.gif */,
+				377DFA801DFBF7BF008AB931 /* PolyLogo.png */,
+				377DFA811DFBF7BF008AB931 /* Haha Emoji.png */,
+				377DFA821DFBF7BF008AB931 /* Pencil.png */,
+				377DFA831DFBF7BF008AB931 /* MapPointer.png */,
+				377DFA841DFBF7BF008AB931 /* MapIcon.png */,
+				377DFA851DFBF7BF008AB931 /* Caution Sign.png */,
+				377DFA861DFBF7BF008AB931 /* Caution Sign@0.5x.png */,
+				377DFA871DFBF7BF008AB931 /* skull-icon.png */,
+				377DFA881DFBF7BF008AB931 /* Enter Button.png */,
+				377DFA891DFBF7BF008AB931 /* Leave Button.png */,
+				377DFA8A1DFBF7BF008AB931 /* Building1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		37D5E4061DFD4A58006084A7 /* Dungeon VC */ = {
+			isa = PBXGroup;
+			children = (
+				370694A81DFBFB4B00BA4837 /* DungeonEntranceViewController.swift */,
+				370694A91DFBFB4B00BA4837 /* DungeonViewController.swift */,
+				370694AA1DFBFB4B00BA4837 /* DefeatDungeonExitViewController.swift */,
+				370694AB1DFBFB4B00BA4837 /* VictoryDungeonExitViewController.swift */,
+			);
+			name = "Dungeon VC";
+			sourceTree = "<group>";
+		};
+		37D5E4071DFD4A61006084A7 /* User VC */ = {
+			isa = PBXGroup;
+			children = (
+				372A1FE41DF0C42E0018D3AE /* LogInViewController.swift */,
+				37D5E4081DFD4B2D006084A7 /* MonstersViewController.swift */,
+				372A1FE51DF0C42E0018D3AE /* ProfileViewController.swift */,
+				372A1FF51DF0D19A0018D3AE /* SignUpViewController.swift */,
+				372A1FF31DF0CDA80018D3AE /* MenuViewController.swift */,
+				370694B31DFBFD3F00BA4837 /* MapViewController.swift */,
+				372A20041DF144490018D3AE /* UserProfileViewController.swift */,
+			);
+			name = "User VC";
+			sourceTree = "<group>";
+		};
+		3D35A73FAF7A50ABA67FDDBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E6C400BF280AA11AE111B /* Pods-TeamsGamePrototype2.debug.xcconfig */,
+				EA045BE8E6A0EC35185487E8 /* Pods-TeamsGamePrototype2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EE8BF6003789F4C252E2D98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F71DA35018E62B59DED4EAB /* Pods_TeamsGamePrototype2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 370B463C1DF0C28000F5C984 /* Build configuration list for PBXNativeTarget "TeamsGamePrototype2" */;
 			buildPhases = (
+				11CE3BDDF56242357CEB1699 /* [CP] Check Pods Manifest.lock */,
 				370B46261DF0C28000F5C984 /* Sources */,
 				370B46271DF0C28000F5C984 /* Frameworks */,
 				370B46281DF0C28000F5C984 /* Resources */,
+				C0CEEC46D4709409553CD657 /* [CP] Embed Pods Frameworks */,
+				A60026FAE9714BE9546B8097 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +338,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 9592V5UGP7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,44 +369,112 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				370B46381DF0C28000F5C984 /* LaunchScreen.storyboard in Resources */,
+				377DFA981DFBF7BF008AB931 /* Building1.png in Resources */,
+				370694B21DFBFC5700BA4837 /* Dungeons.storyboard in Resources */,
+				377DFA901DFBF7BF008AB931 /* Pencil.png in Resources */,
+				372A1FF81DF12C700018D3AE /* user-placeholder.jpg in Resources */,
+				377DFA951DFBF7BF008AB931 /* skull-icon.png in Resources */,
+				377DFA941DFBF7BF008AB931 /* Caution Sign@0.5x.png in Resources */,
+				372A1FFA1DF1304A0018D3AE /* GoogleService-Info.plist in Resources */,
+				372A20011DF141510018D3AE /* Main.storyboard in Resources */,
 				370B46351DF0C28000F5C984 /* Assets.xcassets in Resources */,
-				370B46331DF0C28000F5C984 /* Main.storyboard in Resources */,
+				37D5E4031DFD493B006084A7 /* MapTabBar2.png in Resources */,
+				377DFA8B1DFBF7BF008AB931 /* victory_lol.png in Resources */,
+				377DFA961DFBF7BF008AB931 /* Enter Button.png in Resources */,
+				377DFA8C1DFBF7BF008AB931 /* defeat_lol.png in Resources */,
+				377DFA931DFBF7BF008AB931 /* Caution Sign.png in Resources */,
+				377DFA8D1DFBF7BF008AB931 /* Small.gif in Resources */,
+				377DFA971DFBF7BF008AB931 /* Leave Button.png in Resources */,
+				377DFA911DFBF7BF008AB931 /* MapPointer.png in Resources */,
+				377DFA8E1DFBF7BF008AB931 /* PolyLogo.png in Resources */,
+				377DFA921DFBF7BF008AB931 /* MapIcon.png in Resources */,
+				372A1FEB1DF0C4810018D3AE /* Asset 1.png in Resources */,
+				37D5E4011DFD48E0006084A7 /* MapTabBar.png in Resources */,
+				377DFA8F1DFBF7BF008AB931 /* Haha Emoji.png in Resources */,
+				37D5E4051DFD49FA006084A7 /* pokettomonsta-ghastly-practise.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11CE3BDDF56242357CEB1699 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A60026FAE9714BE9546B8097 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamsGamePrototype2/Pods-TeamsGamePrototype2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0CEEC46D4709409553CD657 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamsGamePrototype2/Pods-TeamsGamePrototype2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		370B46261DF0C28000F5C984 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				370B46301DF0C28000F5C984 /* ViewController.swift in Sources */,
+				370694AD1DFBFB4B00BA4837 /* DungeonViewController.swift in Sources */,
+				372A1FF61DF0D19A0018D3AE /* SignUpViewController.swift in Sources */,
+				370694A01DFBFA8500BA4837 /* GeoFire.m in Sources */,
 				370B462E1DF0C28000F5C984 /* AppDelegate.swift in Sources */,
+				370694A41DFBFA8500BA4837 /* GFQuery.m in Sources */,
+				372A1FF41DF0CDA80018D3AE /* MenuViewController.swift in Sources */,
+				37D5E40B1DFD4D2C006084A7 /* MonsterCell.swift in Sources */,
+				370694AC1DFBFB4B00BA4837 /* DungeonEntranceViewController.swift in Sources */,
+				370694B41DFBFD3F00BA4837 /* MapViewController.swift in Sources */,
+				377DFA9B1DFBF7FE008AB931 /* PokeAnnotation.swift in Sources */,
+				372A1FE71DF0C42E0018D3AE /* ProfileViewController.swift in Sources */,
+				372A20031DF142E40018D3AE /* User.swift in Sources */,
+				372A1FE61DF0C42E0018D3AE /* LogInViewController.swift in Sources */,
+				370694AF1DFBFB4B00BA4837 /* VictoryDungeonExitViewController.swift in Sources */,
+				37D5E4091DFD4B2D006084A7 /* MonstersViewController.swift in Sources */,
+				370694A21DFBFA8500BA4837 /* GFGeoHash.m in Sources */,
+				370694A31DFBFA8500BA4837 /* GFGeoHashQuery.m in Sources */,
+				370694A11DFBFA8500BA4837 /* GFBase32Utils.m in Sources */,
+				372A1FF01DF0C62E0018D3AE /* AuthService.swift in Sources */,
+				372A20051DF144490018D3AE /* UserProfileViewController.swift in Sources */,
+				370694AE1DFBFB4B00BA4837 /* DefeatDungeonExitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		370B46311DF0C28000F5C984 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				370B46321DF0C28000F5C984 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		370B46361DF0C28000F5C984 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				370B46371DF0C28000F5C984 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		370B463A1DF0C28000F5C984 /* Debug */ = {
@@ -209,6 +522,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "TeamGamesPrototype2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -250,6 +564,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "TeamGamesPrototype2-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -257,26 +572,32 @@
 		};
 		370B463D1DF0C28000F5C984 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9E6C400BF280AA11AE111B /* Pods-TeamsGamePrototype2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TeamsGamePrototype2/TeamsGamePrototype2.entitlements;
 				DEVELOPMENT_TEAM = 9592V5UGP7;
 				INFOPLIST_FILE = TeamsGamePrototype2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.michaeljhsiu.TeamsGamePrototype2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeamsGamePrototype2/TeamsGamePrototype2-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		370B463E1DF0C28000F5C984 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA045BE8E6A0EC35185487E8 /* Pods-TeamsGamePrototype2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TeamsGamePrototype2/TeamsGamePrototype2.entitlements;
 				DEVELOPMENT_TEAM = 9592V5UGP7;
 				INFOPLIST_FILE = TeamsGamePrototype2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.michaeljhsiu.TeamsGamePrototype2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TeamsGamePrototype2/TeamsGamePrototype2-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +621,7 @@
 				370B463E1DF0C28000F5C984 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

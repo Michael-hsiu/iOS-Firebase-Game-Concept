@@ -34,5 +34,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need to access your library to pick your profile picture!</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to access your camera to pick your profile picture!</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location is required to show nearby dungeons!</string>
 </dict>
 </plist>
